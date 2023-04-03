@@ -1,4 +1,5 @@
 # 基于gprMax以及Matlab仿真的SFCW雷达信号处理笔记
+English Version <a href='.\README.EN.md'>README</a>
 
 >本人为初学者，且不常使用github，如遇到问题可发送邮件至**2538703415@qq.com**讨论，这样我能及时看见，但不一定能帮你解决……
 
@@ -130,4 +131,4 @@ $$T_x(t) = \begin{cases}
     sin(2\pi f_nt) & kf_nt \geq 1
 \end{cases}$$
 
-在gprMax的waveforms.py中，$k = 0.25$
+在gprMax的waveforms.py中， $k = 0.25$
