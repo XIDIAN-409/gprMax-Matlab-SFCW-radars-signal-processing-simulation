@@ -1,0 +1,24 @@
+#title: impulse response (bscan) for the model
+#domain: 10.000 3.000 0.002
+#dx_dy_dz: 0.005 0.005 0.002
+#time_window: 100e-9
+#time_step_stability_factor: 0.8479408815617375
+
+#material: 12 2e-3 1 0 lower_layer
+#material: 7 5e-3 1 0 upper_layer
+
+#waveform:  impulse 1 1.5e9 mypulse
+#hertzian_dipole: z 0.100 2.800 0 mypulse
+#rx: 0.300 2.800 0
+#src_steps: 0.05 0 0
+#rx_steps: 0.05 0 0
+
+#box: 0 0 0 10.000 1.400 0.002 lower_layer
+#box: 0.000 1.400 0 10.000 2.800 0.002 upper_layer
+
+#box: 5.000 1.200 0 6.000 1.600 0.002 pec
+#cylinder: 1.000 1.400 0 1.000 1.400 0.002 0.400 pec
+#cylinder: 8.000 0.800 0 8.000 0.800 0.002 0.500 pec
+
+
+

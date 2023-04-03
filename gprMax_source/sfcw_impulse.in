@@ -1,0 +1,19 @@
+#title: impulse response for the model
+#domain: 2.000 3.000 0.002
+#dx_dy_dz: 0.005 0.005 0.002
+#time_window: 100e-9
+#time_step_stability_factor: 0.8479408815617375
+
+#material: 12 2e-3 1 0 lower_layer
+#material: 7 5e-3 1 0 upper_layer
+
+#waveform:  contsine 1 300e6 mypulse
+#hertzian_dipole: z 0.900 2.800 0 mypulse
+#rx: 1.100 2.800 0
+
+#box: 0 0 0 2.000 1.400 0.002 lower_layer
+#box: 0.000 1.400 0 2.000 2.800 0.002 upper_layer
+#cylinder: 1.000 1.400 0 1.000 1.400 0.002 0.400 pec
+
+
+#geometry_view: 0 0 0 2.000 3.000 0.002 0.005 0.005 0.002 impulse_response n
